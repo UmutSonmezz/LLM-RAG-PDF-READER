@@ -1,0 +1,3 @@
+The purpose of this project is to read user-uploaded PDF files using Retrieval-Augmented Generation (RAG) and provide concise and accurate answers related to the content of the PDFs with the help of a language model (LLM). The project features a Streamlit-based interface and utilizes language models such as google/flan-t5-xxl or meta-llama/Meta-Llama-3.1-8B-Instruct, both of which are sourced from Hugging Face.
+
+For embedding, the project employs the hkunlp/instructor-xl model from Hugging Face, and FAISS Vector Store is used to store the vectorized words. Additionally, to enhance the response time for repeated queries, a chat history is integrated into the system.
